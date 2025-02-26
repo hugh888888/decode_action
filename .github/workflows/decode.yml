@@ -1,6 +1,7 @@
 name: Decode JavaScript File
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
